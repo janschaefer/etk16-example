@@ -34,7 +34,7 @@ task jgivenReport(type: JavaExec) {
     args '--sourceDir=build/reports/jgiven/json',
             '--targetDir=build/reports/jgiven/html',
             '--format=html',
-            '--title=JGiven Example - https://github.com/janschaefer/etk16-example'
+            '--title=JGiven Example'
 
     classpath = configurations.testCompile
 }
